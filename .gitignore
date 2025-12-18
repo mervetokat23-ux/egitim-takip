@@ -1,0 +1,19 @@
+# Java / Maven
+target/
+*.class
+
+# Logs
+*.log
+boot.log
+
+# Database
+*.db
+*.mv.db
+*.trace.db
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
