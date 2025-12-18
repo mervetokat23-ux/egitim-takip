@@ -1,0 +1,116 @@
+.paydas-detail-page {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.detail-header {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.detail-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.detail-card h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+  font-size: 18px;
+}
+
+.info-row {
+  display: flex;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.info-row label {
+  width: 100px;
+  font-weight: 600;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.relation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.relation-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.relation-list li:last-child {
+  border-bottom: none;
+}
+
+.relation-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.relation-list a:hover {
+  text-decoration: underline;
+}
+
+.empty-text {
+  color: #888;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.badge-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

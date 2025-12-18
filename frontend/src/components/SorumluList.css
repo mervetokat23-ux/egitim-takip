@@ -1,0 +1,7 @@
+.sorumlu-list-page {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+/* Diğer stiller EgitmenList.css ile aynı olduğu için global bir css dosyasından alınabilir 
+   veya burada tekrar tanımlanabilir. Şimdilik EgitmenList stillerini kullanacağız. */
+

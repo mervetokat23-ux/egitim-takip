@@ -1,0 +1,16 @@
+Project: Akademi Egitim Takip Sistemi
+TechStack: Spring Boot (Java) backend, PostgreSQL, React frontend
+Goal: Eğitim, Eğitmen, Sorumlu, Proje, Faaliyet, Paydaş, Ödeme yönetimi + login + loglama + raporlama.
+Constraints:
+ - Eğitim <-> Eğitmen: many-to-many
+ - Eğitim <-> Sorumlu: many-to-many
+ - Eğitim <-> Kategori: many-to-many
+ - Eğitim -> Proje: optional, max 1
+ - Faaliyet <-> Sorumlu: many-to-many
+ - Paydaş <-> Sorumlu: many-to-many
+ - Use migrations (Flyway or Liquibase)
+ - Write unit & integration tests for backend (JUnit) and basic E2E for critical flows (Cypress)
+Style:
+ - Clean, well-documented code. Each file/class should have a short header comment explaining responsibility.
+ - Provide SQL for table creation and index suggestions.
+ - Provide API contract (OpenAPI/Swagger) for each endpoint.
